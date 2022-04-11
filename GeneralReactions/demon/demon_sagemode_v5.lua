@@ -2784,11 +2784,13 @@ local tbl =
 					{
 						actionCDValue = 0,
 						actionID = -1,
-						buffCheckType = 2,
+						buffCheckType = 5,
 						buffDuration = 0,
-						buffID = 2607,
+						buffID = -1,
 						buffIDList = 
 						{
+							2607,
+							2609,
 						},
 						category = "Party",
 						channelCheckSpellID = -1,
@@ -3372,201 +3374,6 @@ local tbl =
 						buffIDList = 
 						{
 						},
-						category = "Party",
-						channelCheckSpellID = -1,
-						channelCheckSpellIDList = 
-						{
-						},
-						channelCheckTimeRemain = 0,
-						channelCheckType = 1,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterOriginalTarget = false,
-						clusterRadius = 8,
-						clusterRange = 30,
-						comparator = 2,
-						conditionLua = "",
-						conditionType = 2,
-						conditions = 
-						{
-						},
-						contentid = -1,
-						dequeueIfLuaFalse = false,
-						enmityValue = 0,
-						eventArgOptionType = 1,
-						eventArgType = 1,
-						eventBuffDuration = 0,
-						eventBuffID = -1,
-						eventChatLine = "",
-						eventEntityContentID = -1,
-						eventEntityID = -1,
-						eventEntityName = "",
-						eventMarkerID = -1,
-						eventOwnerContentID = -1,
-						eventOwnerID = -1,
-						eventOwnerName = "",
-						eventSpellID = -1,
-						eventSpellName = -1,
-						eventTargetContentID = -1,
-						eventTargetID = -1,
-						eventTargetName = "",
-						filterTargetSubtype = "Nearest",
-						filterTargetType = "Self",
-						gaugeIndex = 1,
-						gaugeValue = 0,
-						hpType = 1,
-						hpValue = 85,
-						inCombatType = 1,
-						inRangeValue = 0,
-						lastSkillID = -1,
-						localMapIDList = 
-						{
-						},
-						localmapid = -1,
-						markerIDList = 
-						{
-						},
-						matchAnyBuff = false,
-						minTargetPercent = false,
-						mpType = 1,
-						mpValue = 0,
-						name = "HP Check (aoe)",
-						partyHpType = 1,
-						partyHpValue = 85,
-						partyMpType = 1,
-						partyMpValue = 0,
-						partyTargetContentID = -1,
-						partyTargetName = "",
-						partyTargetNumber = 1,
-						partyTargetSubType = "Nearest",
-						partyTargetType = "Detection Target",
-						rangeCheckSourceSubType = "Nearest",
-						rangeCheckSourceType = "Self",
-						rangeSourceContentID = -1,
-						rangeSourceName = "",
-						setEventTargetSubtype = 1,
-						setFirstMatch = false,
-						spellIDList = 
-						{
-						},
-						uuid = "c1bcca42-9e17-cc4b-a2d5-fd6deaadcf55",
-						version = 2,
-					},
-					inheritedIndex = 6,
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						actionCDValue = 0,
-						actionID = -1,
-						buffCheckType = 1,
-						buffDuration = 0,
-						buffID = -1,
-						buffIDList = 
-						{
-						},
-						category = "Party",
-						channelCheckSpellID = -1,
-						channelCheckSpellIDList = 
-						{
-						},
-						channelCheckTimeRemain = 0,
-						channelCheckType = 1,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterOriginalTarget = false,
-						clusterRadius = 8,
-						clusterRange = 30,
-						comparator = 2,
-						conditionLua = "",
-						conditionType = 4,
-						conditions = 
-						{
-						},
-						contentid = -1,
-						dequeueIfLuaFalse = false,
-						enmityValue = 0,
-						eventArgOptionType = 1,
-						eventArgType = 1,
-						eventBuffDuration = 0,
-						eventBuffID = -1,
-						eventChatLine = "",
-						eventEntityContentID = -1,
-						eventEntityID = -1,
-						eventEntityName = "",
-						eventMarkerID = -1,
-						eventOwnerContentID = -1,
-						eventOwnerID = -1,
-						eventOwnerName = "",
-						eventSpellID = -1,
-						eventSpellName = -1,
-						eventTargetContentID = -1,
-						eventTargetID = -1,
-						eventTargetName = "",
-						filterTargetSubtype = "Nearest",
-						filterTargetType = "Self",
-						gaugeIndex = 1,
-						gaugeValue = 0,
-						hpType = 1,
-						hpValue = 0,
-						inCombatType = 1,
-						inRangeValue = 15,
-						lastSkillID = -1,
-						localMapIDList = 
-						{
-						},
-						localmapid = -1,
-						markerIDList = 
-						{
-						},
-						matchAnyBuff = false,
-						minTargetPercent = false,
-						mpType = 1,
-						mpValue = 0,
-						name = "15y",
-						partyHpType = 1,
-						partyHpValue = 0,
-						partyMpType = 1,
-						partyMpValue = 0,
-						partyTargetContentID = -1,
-						partyTargetName = "",
-						partyTargetNumber = 1,
-						partyTargetSubType = "Nearest",
-						partyTargetType = "Detection Target",
-						rangeCheckSourceSubType = "Nearest",
-						rangeCheckSourceType = "Self",
-						rangeSourceContentID = -1,
-						rangeSourceName = "",
-						setEventTargetSubtype = 1,
-						setFirstMatch = false,
-						spellIDList = 
-						{
-						},
-						uuid = "f3271280-9d23-5a94-9c99-d1e4f1e5fe0f",
-						version = 2,
-					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						actionCDValue = 0,
-						actionID = -1,
-						buffCheckType = 1,
-						buffDuration = 0,
-						buffID = -1,
-						buffIDList = 
-						{
-						},
 						category = "Lua",
 						channelCheckSpellID = -1,
 						channelCheckSpellIDList = 
@@ -4065,7 +3872,7 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 1,
-						conditionLua = "if DemonCore ~= nil then \n\t\tif DemonCore.Settings.SageHotbar.OGCD.bool == false then\n\t\t\t\treturn true\n\t\tend\nelse\n\t\treturn false\nend",
+						conditionLua = "if DemonCore ~= nil then \n\t\tif DemonCore.Settings.SageHotbar.OGCD.bool == false then\n\t\t\t\treturn true\n\t\telse\n\t\t\t\treturn false\n\t\tend\nelse\n\t\treturn false\nend",
 						conditionType = 1,
 						conditions = 
 						{
@@ -9144,6 +8951,11 @@ local tbl =
 						{
 							
 							{
+								"c9e664cb-64b7-331e-85e3-2a14c19df48b",
+								false,
+							},
+							
+							{
 								"fcd30afc-1721-9ad5-bcf0-1a497ca41466",
 								true,
 							},
@@ -9159,7 +8971,7 @@ local tbl =
 							},
 							
 							{
-								"c9e664cb-64b7-331e-85e3-2a14c19df48b",
+								"6a6286c9-2159-e7eb-87e9-e20db95e1b2a",
 								true,
 							},
 						},
@@ -10617,13 +10429,13 @@ local tbl =
 						{
 							
 							{
-								"501396eb-bc04-1ac6-9946-e952602f5ea8",
-								true,
+								"9a57811c-d227-0d14-815b-30307e148fe7",
+								false,
 							},
 							
 							{
-								"9a57811c-d227-0d14-815b-30307e148fe7",
-								false,
+								"501396eb-bc04-1ac6-9946-e952602f5ea8",
+								true,
 							},
 							
 							{
