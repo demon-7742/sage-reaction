@@ -1110,7 +1110,7 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 1,
-						conditionLua = "local party = EntityList.myparty\nif (party) then\n\t\tlocal count = 0\n\t\tfor _,v in pairs(party) do\n\t\t\t\t\t\tcount=count+1\n\t\tend\n\t\treturn count == 4\nelse\n\t\treturn false\nend\n",
+						conditionLua = "local party = EntityList.myparty\nif (party) then\n\t\tlocal count = 0\n\t\tfor _,v in pairs(party) do\n\t\t\t\t\t\tcount=count+1\n\t\tend\n\t\treturn count <= 4\nelse\n\t\treturn false\nend\n",
 						conditionType = 1,
 						conditions = 
 						{
