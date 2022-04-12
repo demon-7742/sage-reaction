@@ -7456,6 +7456,11 @@ local tbl =
 								"2a0d7ef6-5ec9-79b0-9bca-9974b5f36bff",
 								true,
 							},
+							
+							{
+								"334af56d-21ee-f333-bfbf-222804e75a35",
+								true,
+							},
 						},
 						contentid = -1,
 						dequeueIfLuaFalse = true,
@@ -7494,7 +7499,7 @@ local tbl =
 						{
 						},
 						matchAnyBuff = false,
-						minTargetPercent = true,
+						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
 						name = "F-Aoe",
@@ -7504,7 +7509,7 @@ local tbl =
 						partyMpValue = 0,
 						partyTargetContentID = -1,
 						partyTargetName = "",
-						partyTargetNumber = 50,
+						partyTargetNumber = 2,
 						partyTargetSubType = "Nearest",
 						partyTargetType = "All",
 						rangeCheckSourceSubType = "Nearest",
