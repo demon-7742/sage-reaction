@@ -1,3 +1,4 @@
+--version 6.0
 local tbl = 
 {
 	
@@ -6179,7 +6180,7 @@ local tbl =
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -8954,7 +8955,7 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 0,
-			timeout = 2,
+			timeout = 3,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
